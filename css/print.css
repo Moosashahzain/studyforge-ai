@@ -1,0 +1,12 @@
+/* StudyForge AI — print styles for exported notes/materials */
+@media print {
+  .sidebar, .mobile-nav, .topbar, .no-print, #toasts, .msg-actions, .btn, button { display: none !important; }
+  body { background: #fff; color: #000; font-size: 12pt; }
+  .main-col, .page { padding: 0; margin: 0; max-width: none; }
+  .card { box-shadow: none; border: 1px solid #ccc; break-inside: avoid; }
+  a { color: #000; text-decoration: none; }
+  .print-title { display: block !important; font-size: 18pt; margin-bottom: 12pt; }
+}
+.print-title { display: none; }
+.print-area h1, .print-area h2, .print-area h3 { break-after: avoid; }
+.print-area pre, .print-area blockquote { break-inside: avoid; }

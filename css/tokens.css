@@ -1,0 +1,94 @@
+/* StudyForge AI — Design tokens */
+:root {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+
+  --navy-950: #070d1f;
+  --navy-900: #0b1530;
+  --navy-800: #122046;
+  --navy-700: #1a2c5c;
+  --violet-700: #5b3df0;
+  --violet-600: #6a4dff;
+  --violet-500: #7c5cff;
+  --violet-400: #9a82ff;
+  --violet-100: #e7e1ff;
+  --blue-500: #4f8cff;
+  --teal-500: #14b8a6;
+  --amber-500: #f59e0b;
+  --red-500: #ef4444;
+  --green-500: #22c55e;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
+
+  --text-xs: 12px; --text-sm: 13.5px; --text-base: 15px; --text-lg: 17px;
+  --text-xl: 20px; --text-2xl: 24px; --text-3xl: 30px;
+
+  --shadow-sm: 0 1px 2px rgba(11, 21, 48, .06);
+  --shadow-md: 0 4px 14px rgba(11, 21, 48, .08);
+  --shadow-lg: 0 12px 32px rgba(11, 21, 48, .14);
+
+  --sidebar-w: 264px;
+  --topbar-h: 60px;
+  --maxw: 1200px;
+
+  --grad-brand: linear-gradient(135deg, #6a4dff 0%, #4f8cff 100%);
+  --grad-hero: linear-gradient(160deg, #0b1530 0%, #1a2c5c 55%, #3b2a86 100%);
+}
+
+[data-theme="light"] {
+  --bg: #f5f7fc;
+  --bg-soft: #eef1f8;
+  --surface: #ffffff;
+  --surface-2: #f8fafd;
+  --border: #e3e8f2;
+  --border-strong: #cdd6e8;
+  --text: #0f1b33;
+  --text-2: #3d4a68;
+  --text-3: #6b7694;
+  --brand: var(--violet-600);
+  --brand-ink: #ffffff;
+  --brand-soft: var(--violet-100);
+  --nav-bg: #0b1530;
+  --nav-text: #dbe3fa;
+  --nav-muted: #8b96bd;
+  --input-bg: #ffffff;
+  --code-bg: #0f1b33;
+  --code-text: #e8ecf7;
+  --ok-bg: #e5f7ec; --ok-text: #15803d;
+  --warn-bg: #fef3e2; --warn-text: #b45309;
+  --err-bg: #fdecec; --err-text: #b91c1c;
+  --info-bg: #e8f0fe; --info-text: #1d4ed8;
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --bg: #080e22;
+  --bg-soft: #0b1330;
+  --surface: #101a38;
+  --surface-2: #0d1530;
+  --border: #1e2a52;
+  --border-strong: #2c3a6b;
+  --text: #e9edf9;
+  --text-2: #b9c2e2;
+  --text-3: #7f8ab0;
+  --brand: var(--violet-400);
+  --brand-ink: #0b1530;
+  --brand-soft: #232a5e;
+  --nav-bg: #070d1f;
+  --nav-text: #dbe3fa;
+  --nav-muted: #8b96bd;
+  --input-bg: #0d1530;
+  --code-bg: #070d1f;
+  --code-text: #e8ecf7;
+  --ok-bg: #0d2b1d; --ok-text: #4ade80;
+  --warn-bg: #2f230e; --warn-text: #fbbf24;
+  --err-bg: #331416; --err-text: #f87171;
+  --info-bg: #14294d; --info-text: #93c5fd;
+  color-scheme: dark;
+}
