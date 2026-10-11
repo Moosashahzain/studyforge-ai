@@ -1,0 +1,10 @@
+# Local environment (never commit secrets)
+.env
+# Contact inbox created by the optional Node server
+server/inbox.jsonl
+# Vendored third-party libs (pdf.js) — fetched from CDN as fallback;
+# too large to push through the available tooling, kept local only
+vendor/
+# OS / editor noise
+.DS_Store
+Thumbs.db

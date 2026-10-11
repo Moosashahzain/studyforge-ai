@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study Assistant — StudyForge AI</title>
+<meta name="description" content="StudyForge AI Study Assistant: tutor chat, math solver, notes, quizzes, PDF study, planner, flashcards and progress dashboard.">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/print.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236a4dff'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'>S</text></svg>">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('sf-theme')||'light'}catch(e){}</script>
+</head>
+<body>
+<a class="skip-link" href="#page">Skip to content</a>
+<div class="app-shell">
+  <aside class="sidebar" aria-label="Study modules">
+    <div class="brand-row">
+      <div class="brand-mark" aria-hidden="true">S</div>
+      <div class="brand-name">StudyForge AI<small data-i18n="study">Study</small></div>
+    </div>
+    <nav><ul class="nav-list" id="sideNav"></ul></nav>
+    <div class="sidebar-foot">
+      <div class="row" style="gap:8px;flex-wrap:wrap">
+        <a class="btn btn-ghost btn-sm" style="color:var(--nav-text)" href="index.html" data-i18n="home">Home</a>
+        <a class="btn btn-ghost btn-sm" style="color:var(--nav-text)" href="portfolio.html" data-i18n="portfolio">Portfolio</a>
+      </div>
+      <div style="margin-top:8px"><span class="badge" id="modeBadge" style="background:rgba(255,255,255,.12);color:#fff">Demo</span></div>
+    </div>
+  </aside>
+
+  <div class="main-col">
+    <header class="topbar">
+      <h1 id="topTitle">AI Tutor</h1>
+      <div class="spacer"></div>
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle theme"></button>
+      <button class="icon-btn" id="langBtn" aria-label="Switch language">ع</button>
+    </header>
+    <main id="page" class="page" tabindex="-1"></main>
+  </div>
+</div>
+
+<nav class="mobile-nav" aria-label="Study modules"><ul class="nav-list" id="mobileNav"></ul></nav>
+<div id="toasts" aria-live="polite"></div>
+
+<script src="js/core/utils.js"></script>
+<script src="js/core/store.js"></script>
+<script src="js/core/icons.js"></script>
+<script src="js/core/i18n.js"></script>
+<script src="js/core/router.js"></script>
+<script src="js/lib/math.js"></script>
+<script src="js/lib/validators.js"></script>
+<script src="js/lib/text.js"></script>
+<script src="js/lib/quiz.js"></script>
+<script src="js/ai/demo.js"></script>
+<script src="js/ai/provider.js"></script>
+<script src="data/questions.js"></script>
+<script src="data/glossary.js"></script>
+<script src="data/formulas.js"></script>
+<script src="data/curriculum.js"></script>
+<script src="js/modules/export.js"></script>
+<script src="js/modules/tutor.js"></script>
+<script src="js/modules/math-ui.js"></script>
+<script src="js/modules/notes.js"></script>
+<script src="js/modules/quiz-ui.js"></script>
+<script src="js/modules/docs.js"></script>
+<script src="js/modules/planner.js"></script>
+<script src="js/modules/flashcards.js"></script>
+<script src="js/modules/dashboard.js"></script>
+<script src="js/modules/history.js"></script>
+<script src="js/modules/settings.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
